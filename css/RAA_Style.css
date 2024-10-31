@@ -1,0 +1,56 @@
+.divTble{
+	display: table;
+	width: 100%;
+}
+.divTbleRow {
+	display: table-row;
+}
+.divTbleHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTbleCell, .divTbleHead {
+	border: 0px solid #999999;
+	display: table-cell;
+	padding: 10px 10px;
+}
+.divTbleHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTbleFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTbleBody {
+	display: table-row-group;
+}
+
+.txArea	{
+	width: 500px;
+	height: 100px;
+}
+
+@media (min-width: 768px){
+.RAA_div{
+	
+	padding: 0px 0px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	width: 50%;
+	text-align: left;
+}
+}
+
+@media (max-width: 768px)
+{
+.RAA_div{
+	
+	padding: 0px 0px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	
+}
+}
